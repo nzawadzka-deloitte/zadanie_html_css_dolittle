@@ -6,12 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EasyMeals</title>
     <link rel="stylesheet" href="home.css" type="text/css">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300,400,600,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/40d2b3cf0f.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
     <div class="navbar">
+        <img src="./img/png/logo.png" alt="logo" id="logo">
+        
         <div class="navbarText">
             <a href="home.html">Home</a>
             <a href="recipes.html">Recipes</a>
@@ -25,6 +30,23 @@
             &copy 2022 Easy Meals. All rigths reserved.
         </div>
     </div>
+    <div class="main-view">
+        <div class="item-1">
+            <div class="header-1">
+                Master The <br>
+                Culinary Art Today
+            </div>
+            <div class="header-2">
+                Explore 250+ recipes
+            </div>
+            <from id="formSubscribe">
+                <input type="text" id="fieldSubscribe" onfocus="this.value=''" name="'email"
+                    value="Enter your e-mail"><br>
+                <input type="submit" id="btnSubscribe" value="Subscribe">
+            </from>
 
+        </div>
+
+    </div>
 </body>
 </html>
